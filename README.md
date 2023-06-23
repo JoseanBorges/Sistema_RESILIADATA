@@ -1,9 +1,8 @@
 
 # RESILIA DATA
-
 ---
 
-##As entidades necessárias para criar o modelo são:
+## As entidades necessárias para criar o modelo são:
 
 - Empresa
 - Tecnologia
@@ -11,7 +10,7 @@
 - Colaborador
 
 ---
-##Seus principais campos e tipos de dados são:
+## Seus principais campos e tipos de dados são:
 
 - **Empresa:**
 
@@ -39,13 +38,13 @@
         Cargo 
         ID_Empresa 
 ---
-###Relacionamentos:
+### Relacionamentos:
 
 A tabela Empresa_Tecnologia representa a associação entre empresas e tecnologias, onde uma empresa pode utilizar várias tecnologias e uma tecnologia pode ser utilizada por várias empresas.
 Já a tabela Colaborador possui uma relação de chave estrangeira com a tabela Empresa, indicando que um colaborador está associado a uma empresa específica.
 
 ---
-###Simulando os registros:
+### Simulando os registros:
 
 __Empresa:__
 ID: 1
@@ -88,6 +87,6 @@ Cargo: Analista de Dados
 ID_Empresa: 2
 
 
-<div style="text-align: center;">
+
 Sistema RESILIADATA
-</div>
+
