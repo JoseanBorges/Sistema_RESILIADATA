@@ -41,7 +41,7 @@
 ### Relacionamentos:
 
 A tabela Empresa_Tecnologia representa a associação entre empresas e tecnologias, onde uma empresa pode utilizar várias tecnologias e uma tecnologia pode ser utilizada por várias empresas.
-Já a tabela Colaborador possui uma relação de chave estrangeira com a tabela Empresa, indicando que um colaborador está associado a uma empresa específica.
+Por sua vez na tabela Colaborador há uma relação de chave estrangeira com a tabela Empresa, indicando que um colaborador está associado a uma ou mais empresas.
 
 ---
 ### Simulando os registros:
